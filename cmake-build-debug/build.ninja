@@ -49,17 +49,17 @@ cmake_ninja_workdir = D$:/PRUEBAEXAMEN/EXAMEN/CasoFinal-Integrador-Tema3-JuanIgn
 
 build cmake_object_order_depends_target_CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez: phony || .
 
-build CMakeFiles/CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir/main.c.obj: C_COMPILER__CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez_unscanned_Debug D$:/PRUEBAEXAMEN/EXAMEN/CasoFinal-Integrador-Tema3-JuanIgnacio-Gonzalez/main.c || cmake_object_order_depends_target_CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez
-  DEP_FILE = CMakeFiles\CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir\main.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+build CMakeFiles/CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir/main.cpp.obj: CXX_COMPILER__CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez_unscanned_Debug D$:/PRUEBAEXAMEN/EXAMEN/CasoFinal-Integrador-Tema3-JuanIgnacio-Gonzalez/main.cpp || cmake_object_order_depends_target_CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez
+  DEP_FILE = CMakeFiles\CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir
   OBJECT_FILE_DIR = CMakeFiles\CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir
 
-build CMakeFiles/CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir/Manejo_Errores/Manejo_errores.c.obj: C_COMPILER__CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez_unscanned_Debug D$:/PRUEBAEXAMEN/EXAMEN/CasoFinal-Integrador-Tema3-JuanIgnacio-Gonzalez/Manejo_Errores/Manejo_errores.c || cmake_object_order_depends_target_CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez
-  DEP_FILE = CMakeFiles\CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir\Manejo_Errores\Manejo_errores.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+build CMakeFiles/CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir/ManejoErrores/ManejoErrores.cpp.obj: CXX_COMPILER__CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez_unscanned_Debug D$:/PRUEBAEXAMEN/EXAMEN/CasoFinal-Integrador-Tema3-JuanIgnacio-Gonzalez/ManejoErrores/ManejoErrores.cpp || cmake_object_order_depends_target_CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez
+  DEP_FILE = CMakeFiles\CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir\ManejoErrores\ManejoErrores.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir
-  OBJECT_FILE_DIR = CMakeFiles\CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir\Manejo_Errores
+  OBJECT_FILE_DIR = CMakeFiles\CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir\ManejoErrores
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ build CMakeFiles/CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir/Manejo_Erro
 #############################################
 # Link the executable CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.exe
 
-build CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.exe: C_EXECUTABLE_LINKER__CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez_Debug CMakeFiles/CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir/main.c.obj CMakeFiles/CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir/Manejo_Errores/Manejo_errores.c.obj
+build CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.exe: CXX_EXECUTABLE_LINKER__CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez_Debug CMakeFiles/CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir/main.cpp.obj CMakeFiles/CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir/ManejoErrores/ManejoErrores.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CasoFinal_Integrador_Tema3_JuanIgnacio_Gonzalez.dir
