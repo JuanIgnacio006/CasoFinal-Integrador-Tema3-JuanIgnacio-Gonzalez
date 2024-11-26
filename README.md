@@ -129,3 +129,5 @@ Este código debería compilar y funcionar en CLion sin necesidad de agregar la 
 
 Por último, ten en cuenta que este código no realiza una comprobación completa de errores y no es robusto contra varios tipos de errores de entrada. Dependiendo de tu caso de uso específico, es posible que desees agregar comprobaciones de errores adicionales y manejar los fallos de manera más sofisticada.
 
+
+# VALORACIÓN DEL CÓDIGO DE MARCOS ALMEIDA
