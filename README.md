@@ -131,3 +131,30 @@ Por último, ten en cuenta que este código no realiza una comprobación complet
 
 
 # VALORACIÓN DEL CÓDIGO DE MARCOS ALMEIDA
+
+***COSAS BUENAS***
+
+***1. Uso adecuado de excepciones:***
+   
+Estás usando excepciones (try-catch) de manera adecuada para manejar errores, especialmente para la lectura del archivo y la detección de errores en tiempo de ejecución.
+
+***2. Uso del manejo de cadenas:***
+
+   El uso de std::string para almacenar el contenido del archivo es adecuado. El uso de buf para leer bloques del archivo y luego agregar el contenido a script es una técnica común para trabajar con archivos binarios o de texto grandes.
+
+***3.Uso de constantes de color para la consola:***
+
+La idea de utilizar secuencias de escape ANSI ("\033[34m", "\033[47m") para cambiar los colores de la consola está bien implementada. Como CLion lo permite está perfecto su uso, lo hace ser más visual.
+
+***4. Validación de entrada en load_script:***
+
+La validación de la entrada del archivo (if (!f)) es una buena práctica, asegurando que se manejen errores de apertura de archivo.
+
+
+***5. EXPLICACIÓN DEL CÓDIGO:***
+
+Explica el código a lo largo de todo el programa, facilita el entendimiento
+
+***6. Estructura***
+
+El código está bien organizado con funciones separadas para manejar la carga del script (load_script), y la estructura ConsoleBox tiene una interfaz limpia y modular para interactuar con la consola.
