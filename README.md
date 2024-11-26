@@ -158,3 +158,12 @@ Explica el código a lo largo de todo el programa, facilita el entendimiento
 ***6. Estructura***
 
 El código está bien organizado con funciones separadas para manejar la carga del script (load_script), y la estructura ConsoleBox tiene una interfaz limpia y modular para interactuar con la consola.
+
+**COSAS QUE MEJORAR**
+
+***1. Uso de puntero sin liberación de memoria:***
+
+Para evitar problemas con la memoria, podemos utilizar un puntero para poder liberar memorias, evitando así fugas de memoria.
+
+**VALORACIÓN FINAL**
+El proyecto de Marcos Almeida cumple con los requisitos pedidos en el ejercicio, por lo que en general, está perfecto.
